@@ -1,9 +1,6 @@
-<h1 align="center" id="title">IS424 - G1T2 Project: A Cappella to Sheet Music</h1>
-
 <p align="center"><img src="https://socialify.git.ci/DarrylSSY/IS424/image?description=1&amp;font=Inter&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Plus&amp;pulls=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
 
-  
-  
+<h1 align="center" id="title">IS424 - G1T2 Project: A Cappella to Sheet Music</h1>
 <h2>🧐 Features</h2>
 
 Here're some of the project's best features:

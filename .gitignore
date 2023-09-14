@@ -1,2 +1,7 @@
 downloads/
-Notebooks/dataset-acapella
+Notebooks/acapella/full_dataset.csv
+Notebooks/acapella/splits.json
+Notebooks/acapella/test_seen.csv
+Notebooks/acapella/test_unseen.csv
+Notebooks/acapella/train.csv
+Notebooks/acapella/val_seen.csv

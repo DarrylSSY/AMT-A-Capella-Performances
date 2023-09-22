@@ -11,6 +11,10 @@ Here're some of the project's best features:
 *   Combine MIDI and words into sheet music (prob have to use a software or do it programatically makes no sense to use an AI for this)
 
 <h2>🛠️ Installation Steps:</h2>
+1. Go to the following link: https://drive.google.com/drive/folders/1pSjRHzHAc97fRF-NB6P40o0Um8KyCUfZ
+2. Download the Ja Capella dataset zipped file.
+3. Rename your Ja Capella dataset zipped file to "Jacapella.zip"
+4. Upload it into this folder directory: "/Notebooks/Dataset"
 
 <p>1. Run Jupyter notebook</p>
 

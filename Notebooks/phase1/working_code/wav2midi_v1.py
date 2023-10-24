@@ -1,5 +1,5 @@
 #Example on how to use (written in CLI):
-#python demo_wav2midi.py "./audio/alto.wav" output.mid
+#python wav2midi_v1.py "./audio/alto.wav" output.mid
 
 import sys
 from aubio import source, notes
@@ -10,7 +10,8 @@ if len(sys.argv) < 3:
     sys.exit(1)
 
 filename = sys.argv[1]
-midioutput = sys.argv[2]
+output_name = sys.argv[2]
+midioutput = "/output/" + output_name
 
 downsample = 1
 samplerate = 48000 // downsample

@@ -1,0 +1,7 @@
+ipykernel==6.25.2
+ipython==8.16.0
+matplotlib==3.8.0
+openpyxl==3.1.2
+pandas==2.1.1
+tensorflow==2.13.0; sys_platform != 'darwin' or platform_machine != 'arm64'
+tensorflow-macos==2.13.0; sys_platform == 'darwin' and platform_machine == 'arm64'

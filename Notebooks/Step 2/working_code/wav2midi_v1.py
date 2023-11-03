@@ -11,7 +11,7 @@ if len(sys.argv) < 3:
 
 filename = sys.argv[1]
 output_name = sys.argv[2]
-midioutput = "/output/" + output_name
+midioutput = "./audio/" + output_name
 
 downsample = 1
 samplerate = 48000 // downsample

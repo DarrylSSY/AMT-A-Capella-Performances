@@ -1,3 +1,6 @@
+#Example on how to use (written in CLI):
+#python wav2midi_v1.py "./audio/alto.wav" output.mid
+
 import sys
 from aubio import source, notes
 from mido import Message, MetaMessage, MidiFile, MidiTrack, bpm2tempo

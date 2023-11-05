@@ -10,3 +10,7 @@ ffmpeg-python
 spleeter
 seaborn
 librosa
+sox
+musdb
+museval
+mir_eval

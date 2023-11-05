@@ -1,2 +1,5 @@
 Notebooks/Dataset
-jacapella_model
+jacapella_model/
+Dataset/
+pretrained_model/
+cache/

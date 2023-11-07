@@ -12,26 +12,38 @@ Here're some of the project's best features:
 
 <h2>🛠️ Installation Steps:</h2>
 
-<h3>1. Download required datasets</h3>
+<h3>0. Download required datasets</h3>
 a. Go to the following <a href="https://drive.google.com/drive/folders/1pSjRHzHAc97fRF-NB6P40o0Um8KyCUfZ">link</a>. <br>
 b. Download the Ja Capella dataset zipped file. <br>
 c. Rename your Ja Capella dataset zipped file to "Jacapella.zip" <br>
 d. Upload it into this folder directory: "/Notebooks/Dataset" <br>
 
-<h3>2. Run Jupyter notebook</h3>
 
-```
-TBC
-```
+**1. Create environment**  
+`python -m venv env`
 
-<h3>3. Deploy Jupyter notebook</h3>
+**2. Activate environment**  
+Windows: `env\Scripts\activate`  
+Mac: `source env/bin/activate`
 
-```
-TBC
-```
+**3. Install kernel in environment**  
+`pip install ipython`  
+`pip install ipykernel`  
+`ipython kernel install --user --name=env`
 
-  
-  
+**4. To add new packages, add it in requirements and run**  
+`pip install -r requirements.txt`
+
+**5. To run jupyter notebook, run**  
+`jupyter notebook`  
+Ensure that you are using the kernel `env` by
+clicking on  
+`Kernel > Change kernel > env`
+
+
+
+
+
 <h2>💻 Built with</h2>
 
 Technologies used in the project:

@@ -1,3 +1,7 @@
 Notebooks/Dataset
 Notebooks/Output
 *.pkl
+Notebooks/pretrained_models/jacapella_model/
+Dataset/
+pretrained_models/
+cache/

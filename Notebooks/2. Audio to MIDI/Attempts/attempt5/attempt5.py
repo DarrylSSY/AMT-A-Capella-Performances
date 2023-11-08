@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
-# How to run: python attempt5.py alto.wav attempt5.mid
+#Example on how to use (written in terminal):
+# python attempt5.py alto.wav attempt5.mid
 
 import sys
 

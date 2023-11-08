@@ -24,7 +24,7 @@ tolerance = 0.3
 s = source(filename, samplerate, hop_s)
 samplerate = s.samplerate
 
-notes_o = notes("default", win_s, hop_s, samplerate)
+notes_o = notes("default", win_s, hop_s, samplerate) #use YIN
 
 mid = MidiFile()
 track = MidiTrack()

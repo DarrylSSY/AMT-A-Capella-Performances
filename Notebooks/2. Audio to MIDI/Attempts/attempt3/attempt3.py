@@ -25,7 +25,7 @@ samplerate = s.samplerate
 
 tolerance = 0.8
 
-notes_o = notes("default", win_s, hop_s, samplerate)
+notes_o = notes("default", win_s, hop_s, samplerate) #use YIN
 
 print("%8s" % "time","[ start","vel","last ]")
 

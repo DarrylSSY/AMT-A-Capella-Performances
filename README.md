@@ -1,23 +1,27 @@
 <p align="center"><img src="https://socialify.git.ci/DarrylSSY/IS424/image?description=1&amp;font=Inter&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Plus&amp;pulls=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
 
-<h1 align="center" id="title">IS424 - G1T2 Project: A Cappella to Sheet Music</h1>
+<h1 align="center" id="title">Automatic Music Transcription: A Capella Performances</h1>
 <h2>🧐 Features</h2>
 
 Here're some of the project's best features:
 
-*   Separate background audio from vocal audio using AI (look into CNNs or RNNs trained on mixed audio data or use Spleeter by Deezer)
-*   Convert audio to MIDI (look into approaches like Onsets and Frames or use the vocal audio paired with Midi)
-*   Transcribe vocal track into words (look into ASR models existing APIs like Google's speech recognition or train our own model with audio paired with words dataset)
-*   Combine MIDI and words into sheet music (prob have to use a software or do it programatically makes no sense to use an AI for this)
+*   Separate A Capella audio into Soprano, Alto, Bass, Tenor, Lead Vocal, and Vocal Percussion tracks via 4 methods:
+    *    Non-negative Matrix Factorization (NMF)
+    *    Independent Low Ranking Matrix Analysis (ILRMA)
+    *    Convolutional Recurrent Neural Network with Attention (CRNN-A) model
+    *    **Spleeter (best results)**
+
+*   Convert WAV audio files to MIDI files (via signal processing techniques and probabilistic modelling)
+*   Lyrics transcription from Lead Vocal track (via OpenAI’s Whisper)
+*   Combine audio MIDI files and lyrics into sheet music (via music21 python library)
 
 <h2>🛠️ Installation Steps:</h2>
 
-<h3>0. Download required datasets</h3>
+**0. Download required datasets**<br>
 a. Go to the following <a href="https://drive.google.com/drive/folders/1pSjRHzHAc97fRF-NB6P40o0Um8KyCUfZ">link</a>. <br>
 b. Download the Ja Capella dataset zipped file. <br>
 c. Rename your Ja Capella dataset zipped file to "Jacapella.zip" <br>
 d. Upload it into this folder directory: "/Notebooks/Dataset" <br>
-
 
 **1. Create environment**  
 `python -m venv env`
@@ -39,9 +43,6 @@ Mac: `source env/bin/activate`
 Ensure that you are using the kernel `env` by
 clicking on  
 `Kernel > Change kernel > env`
-
-
-
 
 
 <h2>💻 Built with</h2>
